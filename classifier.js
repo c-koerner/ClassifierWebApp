@@ -35,9 +35,8 @@ function handleClassify(request, response) {
 
     // 1. use classifier to classify "inputtext"
     var categorie = classifier.categorize(inputtext);
-    var stateJson = classifier.toJson();
-    // 2. save classify response to variable
-    // 3. return classify response
+
+    // 2. return classify response
     console.log('input text ist: ', inputtext)
     response.send(categorie);
 }

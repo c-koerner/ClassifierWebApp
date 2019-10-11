@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/c-koerner/ClassifierWebApp#readme",
   "dependencies": {
-    "bayes": "0.0.7"
+    "bayes": "0.0.7",
+    "express": "^4.17.1"
   }
 }
